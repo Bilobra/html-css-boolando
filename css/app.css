@@ -28,6 +28,8 @@ header{
     justify-content: center;
     align-items: center;
     background-color: rgb(255, 105, 0);
+    position: fixed;
+    z-index: 100000;
 }
  nav{
     width: 100%;
@@ -57,6 +59,7 @@ header{
     max-width: 1370px;
     margin: 0 auto;
     display: flex;
+    padding-top: 80px;
 }
 .row{
     display: flex;
@@ -175,7 +178,7 @@ header{
 
 
 .card_img-back{
-    z-index: 2;
+    z-index: 2; 
     top: 0;
     bottom: 0;
     right: 0;
