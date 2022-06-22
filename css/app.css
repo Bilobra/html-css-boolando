@@ -52,6 +52,7 @@ header{
  }
  .logo{
     width: 100px;
+    margin-right: 50px;
  }
 
 /* section */
@@ -177,19 +178,23 @@ header{
 /* hover */
 
 
-.card_img-back{
+.card_img-open{
     z-index: 2; 
     top: 0;
     bottom: 0;
     right: 0;
     left: 0;
     position: absolute;
+   
     
 }
-
-.card_img-back:hover{
-    display: none;
+.card_img-open{
+    opacity:1;
 }
+.widget:hover .card_img-open{
+    opacity:0;
+}
+
 
 /* debug */
 /* .debug header{
