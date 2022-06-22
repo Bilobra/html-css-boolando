@@ -18,6 +18,7 @@ img{
     
 }
 
+
 /* HEADER */
 
 header{
@@ -90,6 +91,7 @@ header{
     font-weight: bold;
     padding: 4px 5px;
     font-family: sans-serif;
+    z-index: 998;
 }
 .card_sale{
     left: 0;
@@ -113,6 +115,7 @@ header{
     justify-content: center;
     align-items: center;
     font-size: 20px;
+    z-index: 997;
 
 }
 .brand{
@@ -168,6 +171,21 @@ header{
     padding-top:5px;
 }
 
+/* hover */
+
+
+.card_img-open{
+    z-index: 9999;
+   
+}
+.card_img-back{
+    z-index: 2;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: absolute;
+}
 
 /* debug */
 /* .debug header{
