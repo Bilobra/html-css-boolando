@@ -174,10 +174,6 @@ header{
 /* hover */
 
 
-.card_img-open{
-    z-index: 9999;
-   
-}
 .card_img-back{
     z-index: 2;
     top: 0;
@@ -185,6 +181,11 @@ header{
     right: 0;
     left: 0;
     position: absolute;
+    
+}
+
+.card_img-back:hover{
+    display: none;
 }
 
 /* debug */
